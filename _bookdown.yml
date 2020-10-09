@@ -1,5 +1,5 @@
 output_dir: "docs"
-book_filename: "bookdown-demo"
+book_filename: "Meu livro demo"
 language:
   ui:
     chapter_name: "Chapter "
