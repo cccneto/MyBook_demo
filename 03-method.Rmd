@@ -1,3 +1,12 @@
-# Methods
+# Métodos{#methods}
 
-We describe our methods in this chapter.
+We describe our methods in this chapter.R é um software livre e vem sem GARANTIA ALGUMA.
+Você pode redistribuí-lo sob certas circunstâncias. R é um software livre e vem sem GARANTIA ALGUMA.
+Você pode redistribuí-lo sob certas circunstâncias.
+
+
+```{r}
+data("cars")
+head(cars)
+
+```

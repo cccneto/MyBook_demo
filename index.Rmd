@@ -1,6 +1,6 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
+title: "Um exemplo Minimo de um livro"
+author: "Claudiano C. Cruz Neto"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -9,14 +9,14 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: rstudio/bookdown-demo
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+description: "Este é um exemplo minimo de uso do pacote BookDown para escrever um livro O formato do output para este exemplo é bookdown::gitbook."
 ---
 
-# Prerequisites
+# Pré-requisitos
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
+Este é um livro de _amostra_ escrito em **Markdown**. Você pode usar qualquer coisa compatível com o Markdown de Pandoc, por exemplo, uma equação matemática $a^2 + b^2 = c^2$.
 
-The **bookdown** package can be installed from CRAN or Github:
+O pacote **bookdown** pode ser instalado do CRAN ou Github:
 
 ```{r eval=FALSE}
 install.packages("bookdown")
@@ -24,9 +24,9 @@ install.packages("bookdown")
 # devtools::install_github("rstudio/bookdown")
 ```
 
-Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
+Lembre-se de que cada arquivo Rmd contém um e apenas um capítulo, e um capítulo é definido pelo título de primeiro nível `#`.
 
-To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.name/tinytex/>.
+Para compilar este exemplo para o PDF, você precisa XeLaTeX. É recomendado que você instale TinyTex (o qual inclue o XeLaTeX): <https://yihui.name/tinytex/>.
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages

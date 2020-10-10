@@ -1,15 +1,18 @@
-# Introduction {#intro}
+# Introdução {#intro}
+
+Você pode rotular títulos de capítulos e seções usando `{#label}` após eles, por exemplo, podemos fazer referência a Chapter \@ref(intro). Se você não os rotular manualmente, haverá rótulos automáticos de qualquer maneira, por exemplo, Chapter \@ref(metodo).
 
 You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+Figuras e tabelas com legendas serão colocadas nos ambientes `figure` e `table`, respectivamente.
+
 
 ```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
 par(mar = c(4, 4, .1, .1))
 plot(pressure, type = 'b', pch = 19)
 ```
 
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+Faça referência a uma figura por seu rótulo de bloco de código com o prefixo `fig:`, por exemplo, consulte a Figura \@ref(fig:nice-fig). Da mesma forma, você pode fazer referência às tabelas geradas a partir de `knitr::kable()`, por exemplo, consulte Tabela \@ref(tab:nice-tab).
 
 ```{r nice-tab, tidy=FALSE}
 knitr::kable(
